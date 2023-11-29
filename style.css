@@ -5,11 +5,13 @@
 }
 
 div{
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
+
 form{
   display: flex;
   flex-direction: column;
@@ -37,4 +39,23 @@ input[type="submit"]{
   background-color: brown;
   color: white;
   cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: darksalmon;
+}
+
+h1{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover{
+  color: chocolate;
 }
