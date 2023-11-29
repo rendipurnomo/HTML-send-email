@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid brown;
+  border-radius: 14px;
+  background-color: chocolate;
+}
+
+input{
+  padding: 10px;
+  border-radius: 8px;
+}
+
+textarea{
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input[type="submit"]{
+  border-radius: 8px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
